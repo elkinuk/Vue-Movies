@@ -1,33 +1,25 @@
-/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable import/no-extraneous-dependencies */
+import { storiesOf } from '@storybook/vue'
+import { action } from '@storybook/addon-actions'
+import { linkTo } from '@storybook/addon-links'
 
-import { storiesOf } from '@storybook/vue';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
-
-import MyButton from './MyButton';
-import Welcome from './Welcome';
-
-storiesOf('Welcome', module).add('to Storybook', () => ({
-  components: { Welcome },
-  template: '<welcome :showApp="action" />',
-  methods: { action: linkTo('Button') },
-}));
+import { MyButton } from '@/shared'
 
 storiesOf('Button', module)
   .add('with text', () => ({
     components: { MyButton },
     template: '<my-button @click="action">Hello Button</my-button>',
-    methods: { action: action('clicked') },
+    methods: { action: action('clicked') }
   }))
   .add('with JSX', () => ({
     components: { MyButton },
-    render(h) {
+    render() {
       return <my-button onClick={this.action}>With JSX</my-button>;
     },
-    methods: { action: linkTo('clicked') },
+    methods: { action: linkTo('Button', 'with some emoji') }
   }))
   .add('with some emoji', () => ({
     components: { MyButton },
     template: '<my-button @click="action">😀 😎 👍 💯</my-button>',
-    methods: { action: action('clicked') },
-  }));
+    methods: { action: action('clicked') }
+  }))

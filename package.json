@@ -6,11 +6,17 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "prettify": "eslint ./src --fix",
+    "test": "jest",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
+    "@vue/eslint-config-prettier": "^4.0.1",
     "core-js": "^2.6.5",
+    "eslint-plugin-jest": "^22.7.1",
+    "i": "^0.3.6",
+    "npm": "^6.9.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -27,31 +33,21 @@
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
+    "css-loader": "^3.0.0",
     "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-vue": "^5.2.3",
     "vue-cli-plugin-storybook": "^0.6.1",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+    "jest": "^24.8.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.10",
+    "vue-test-utils": "^1.0.0-beta.11"
   },
   "browserslist": [
     "> 1%",
