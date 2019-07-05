@@ -1,4 +1,4 @@
-import { Footer } from '@/shared';
+import Footer from './component.vue';
 
 export default [
   'Footer',

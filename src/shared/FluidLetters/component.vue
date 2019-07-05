@@ -8,11 +8,11 @@
         </symbol>
 
         <g class="g-ants">
-          <use xlinkHref="#s-text" class="text-copy"/>
-          <use xlinkHref="#s-text" class="text-copy"/>
-          <use xlinkHref="#s-text" class="text-copy"/>
-          <use xlinkHref="#s-text" class="text-copy"/>
-          <use xlinkHref="#s-text" class="text-copy"/>
+          <use xlink:href="#s-text" class="text-copy"/>
+          <use xlink:href="#s-text" class="text-copy"/>
+          <use xlink:href="#s-text" class="text-copy"/>
+          <use xlink:href="#s-text" class="text-copy"/>
+          <use xlink:href="#s-text" class="text-copy"/>
         </g>
       </svg>
     </div>

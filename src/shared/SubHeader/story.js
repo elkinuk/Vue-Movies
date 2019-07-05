@@ -1,4 +1,4 @@
-import { SubHeader } from '@/shared';
+import SubHeader from './component.vue';
 
 export default [
   'SubHeader',

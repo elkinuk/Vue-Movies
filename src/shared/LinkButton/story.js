@@ -1,4 +1,4 @@
-import { LinkButton } from '@/shared';
+import LinkButton from './component.vue';
 
 export default [
   'LinkButton',

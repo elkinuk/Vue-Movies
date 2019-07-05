@@ -1,5 +1,6 @@
-import MovieListItem from '@/components/MovieListItem';
+import MovieListItem from './component.vue';
 import mockedMovies from '@/core/mock-data/mocked-movies.json';
+
 export default [
   'MovieListItem',
   () => ({

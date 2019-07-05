@@ -1,4 +1,4 @@
-import MovieList from '@/components/MovieList';
+import MovieList from './component.vue';
 import mockedMovies from '@/core/mock-data/mocked-movies.json';
 
 export default [
