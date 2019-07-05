@@ -1,2 +1,2 @@
-import HelloWorld from "./component.vue";
+import HelloWorld from './component.vue';
 export default HelloWorld;

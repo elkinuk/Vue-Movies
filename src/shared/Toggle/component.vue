@@ -1,7 +1,5 @@
 <template>
-  <button class="button is-primary" @click="onClick">
-    <slot></slot>
-  </button>
+  <div>123</div>
 </template>
 
 <script src="./script.js"></script>
