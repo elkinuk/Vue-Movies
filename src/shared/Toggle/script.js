@@ -1,4 +1,10 @@
 export default {
   name: 'Toggle',
-  props: ['labels', 'text', 'name', 'values', 'defaultValue'],
+  props: {
+    labels: Array,
+    text: String,
+    name: String,
+    checkedValue: String,
+    values: Array,
+  },
 };

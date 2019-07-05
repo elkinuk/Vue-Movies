@@ -6,7 +6,12 @@
         placeholder="Search..."
         v-model="searchValue"
       />
-      <Toggle/>
+      <Toggle
+        :labels="['title', 'genre']"
+        text="Search by"
+        name="name"
+        checkedValue="title"
+      />
       <input type="submit" value="Search" />
     </form>
 </template>
