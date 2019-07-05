@@ -1,1 +1,7 @@
-export default { name: 'HelloWorld', props: { msg: String } };
+import MovieItem from '@/components/MovieListItem';
+
+export default {
+  name: 'MovieList',
+  components: { MovieItem },
+  props: { movies: Array },
+};

@@ -1,5 +1,5 @@
 <template>
-  <div>123</div>
+  <div>Toggle</div>
 </template>
 
 <script src="./script.js"></script>

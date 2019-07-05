@@ -1,7 +1,8 @@
-import Footer from './Footer/component.vue';
-import Header from './Header/component.vue';
-import LinkButton from './LinkButton/component.vue';
-import SubHeader from './SubHeader/component.vue';
-import Toggle from './Toggle/component.vue';
+import Footer from './Footer';
+import Header from './Header';
+import LinkButton from './LinkButton';
+import SubHeader from './SubHeader';
+import Toggle from './Toggle';
+import FluidLetters from './FluidLetters';
 
-export { Footer, Header, LinkButton, SubHeader, Toggle };
+export { Footer, Header, LinkButton, SubHeader, Toggle, FluidLetters };

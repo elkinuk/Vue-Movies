@@ -10,7 +10,6 @@
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended",
-      "prettier/vue",
       "plugin:prettier/recommended"
     ],
     "rules": {

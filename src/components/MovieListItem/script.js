@@ -1,1 +1,9 @@
-export default { name: 'HelloWorld', props: { msg: String } };
+import { LinkButton } from '@/shared';
+
+export default {
+  name: 'MovieListItem',
+  components: { LinkButton },
+  props: {
+    movie: Object,
+  },
+};

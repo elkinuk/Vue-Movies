@@ -1,0 +1,92 @@
+{
+  "movies":[
+    {
+      "id": 278661,
+      "title": "Server Sundaram 1",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 0,
+      "release_date": "1964-12-11",
+      "poster_path": "https://image.tmdb.org/t/p/w500/cS3u53cFjt7ZJYYts8e79ZoAkSU.jpg",
+      "overview":
+        "Waiting tables in a hotel restaurant and living at home with his mother, young Sundaram (Nagesh) lives a happy life. Then he falls in love with the beautiful Radha (Vijaya K.R) and everything changes. Unfortunately, the girl of his dreams doesnt share his romantic feelings. Whats a waiter to do? Go into acting, of course! What he doesnt expect is the great success he achieves … and the renewed potential for love with Radha.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Romance", "Comedy", "Drama"],
+      "runtime": 165
+    },
+    {
+      "id": 447365,
+      "title": "Guardians of the Galaxy Vol. 3",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 9,
+      "release_date": "2020-05-01",
+      "poster_path": "https://image.tmdb.org/t/p/w500/ldoY4fTZkGISMidNw60GHoNdgP8.jpg",
+      "overview": "The third film based on Marvels Guardians of the Galaxy.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Action", "Adventure", "Science Fiction"],
+      "runtime": null
+    },
+    {
+      "id": 485548,
+      "title": "Parallel Love: The Story of a Band Called Luxury",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 0,
+      "release_date": "2018-04-01",
+      "poster_path": "https://image.tmdb.org/t/p/w500/qCvae8HztqvWANAD5UOs9GBWPxG.jpg",
+      "overview":
+        "In the 1990s, alt-rock band Luxury is skyrocketing toward national fame until a life-threatening tour bus wreck shakes each band member to his core. Today, Luxury is led by three orthodox priests--and theyre still rocking.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Documentary"],
+      "runtime": null
+    },
+    {
+      "id": 2786611,
+      "title": "Server Sundaram",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 0,
+      "release_date": "1964-12-11",
+      "poster_path": "https://image.tmdb.org/t/p/w500/cS3u53cFjt7ZJYYts8e79ZoAkSU.jpg",
+      "overview":
+        "Waiting tables in a hotel restaurant and living at home with his mother, young Sundaram (Nagesh) lives a happy life. Then he falls in love with the beautiful Radha (Vijaya K.R) and everything changes. Unfortunately, the girl of his dreams doesnt share his romantic feelings. Whats a waiter to do? Go into acting, of course! What he doesnt expect is the great success he achieves … and the renewed potential for love with Radha.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Romance", "Comedy", "Drama"],
+      "runtime": 165
+    },
+    {
+      "id": 4473651,
+      "title": "Guardians of the Galaxy Vol. 3",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 9,
+      "release_date": "2020-05-01",
+      "poster_path": "https://image.tmdb.org/t/p/w500/ldoY4fTZkGISMidNw60GHoNdgP8.jpg",
+      "overview": "The third film based on Marvels Guardians of the Galaxy.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Action", "Adventure", "Science Fiction"],
+      "runtime": null
+    },
+    {
+      "id": 4855481,
+      "title": "Parallel Love: The Story of a Band Called Luxury",
+      "tagline": "",
+      "vote_average": 0,
+      "vote_count": 0,
+      "release_date": "2018-04-01",
+      "poster_path": "https://image.tmdb.org/t/p/w500/qCvae8HztqvWANAD5UOs9GBWPxG.jpg",
+      "overview":
+        "In the 1990s, alt-rock band Luxury is skyrocketing toward national fame until a life-threatening tour bus wreck shakes each band member to his core. Today, Luxury is led by three orthodox priests--and theyre still rocking.",
+      "budget": 0,
+      "revenue": 0,
+      "genres": ["Documentary"],
+      "runtime": null
+    }
+  ]
+}

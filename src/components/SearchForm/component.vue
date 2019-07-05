@@ -1,5 +1,14 @@
 <template>
-  <div>222</div>
+   <form class="form" @submit="handleSubmit">
+      <input
+        type="text"
+        name="searchValue"
+        placeholder="Search..."
+        v-model="searchValue"
+      />
+      <Toggle/>
+      <input type="submit" value="Search" />
+    </form>
 </template>
 
 <script src="./script.js"></script>

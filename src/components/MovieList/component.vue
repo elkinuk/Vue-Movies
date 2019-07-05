@@ -1,5 +1,7 @@
 <template>
-  <div>222</div>
+  <div class="movie-list">
+    <MovieItem v-for="movie in movies" :movie="movie" v-bind:key="movie.title + movie.id" />
+  </div>
 </template>
 
 <script src="./script.js"></script>

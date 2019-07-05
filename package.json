@@ -12,7 +12,6 @@
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
-    "@vue/eslint-config-prettier": "^4.0.1",
     "core-js": "^2.6.5",
     "eslint-plugin-jest": "^22.7.1",
     "i": "^0.3.6",
