@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h1> film id - {{ $route.params.id }}</h1>
-    <MovieCard :movie="movies[0]"/>
+    <MovieCard :movie="currentMovie"/>
     <SubHeader>
       <template v-slot:left>
-        <span>Films by Cartoon genres</span>
+        <span>Films by {{ genre }} genre</span>
       </template>
       <template v-slot:right>
         <span>Here it is 10 films</span>

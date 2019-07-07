@@ -11,4 +11,12 @@ export default {
   data: () => ({
     movies: mockedMovies.movies,
   }),
+  computed: {
+    currentMovie: function() {
+      return this.movies.find(el => el.id === +this.$route.params.id);
+    },
+    genres: function() {
+      return this.currentMovie.genres[0];
+    },
+  },
 };

@@ -4,6 +4,6 @@ export default [
   'SearchForm',
   () => ({
     components: { SearchForm },
-    template: '<SearchForm/>',
+    template: '<SearchForm :defaultSearchType="title"/>',
   }),
 ];

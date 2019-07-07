@@ -1,9 +1,11 @@
 <template>
   <div>
-    <SearchForm/>
+    <SearchForm
+      :defaultSearchType="searchMovieType"
+      v-on:search-movie="searchMovie"/>
     <SubHeader>
         <template v-slot:left>
-          <span>Films by Cartoon genres</span>
+          <span>There are {{moviesLength}} films are found</span>
         </template>
         <template v-slot:right>
           <Toggle

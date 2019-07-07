@@ -7,4 +7,14 @@ export default {
     checkedValue: String,
     values: Array,
   },
+  data: function() {
+    return {
+      currrentValue: this.checkedValue,
+    };
+  },
+  methods: {
+    toggleData: function() {
+      this.$emit('toggle-data', this.currrentValue);
+    },
+  },
 };

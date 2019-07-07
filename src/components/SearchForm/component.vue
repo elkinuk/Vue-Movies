@@ -7,10 +7,11 @@
         v-model="searchValue"
       />
       <Toggle
+        v-on:toggle-data="handleToggle"
         :labels="['title', 'genre']"
         text="Search by"
         name="searchBy"
-        checkedValue="title"
+        :checkedValue="defaultSearchType"
       />
       <input type="submit" value="Search" />
     </form>
