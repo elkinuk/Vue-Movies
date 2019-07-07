@@ -4,7 +4,7 @@
       <MovieItem v-for="movie in movies" :movie="movie" v-bind:key="movie.title + movie.id" />
     </div>
     <div v-else class="movie-list">
-       <span class="movie-list__message"> No movies that match your query </span>
+      <span class="movie-list__message"> No movies that match your query </span>
     </div>
   </div>
 </template>
@@ -12,5 +12,5 @@
 <script src="./script.js"></script>
 
 <style lang="scss" scoped>
-  @import './style.scss';
+@import './style.scss';
 </style>

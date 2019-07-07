@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { configure } from '@storybook/vue';
-import '../../src/style.scss';
+import '../../src/components/App/style.scss';
 
 const req = require.context('../../stories', true, /.stories.js$/);
 
