@@ -9,7 +9,7 @@
       <Toggle
         :labels="['title', 'genre']"
         text="Search by"
-        name="name"
+        name="searchBy"
         checkedValue="title"
       />
       <input type="submit" value="Search" />
