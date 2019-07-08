@@ -15,7 +15,7 @@ export default {
     currentMovie: function() {
       return this.movies.find(el => el.id === +this.$route.params.id);
     },
-    genres: function() {
+    genre: function() {
       return this.currentMovie.genres[0];
     },
   },
