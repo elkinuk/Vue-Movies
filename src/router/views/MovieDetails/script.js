@@ -6,7 +6,7 @@ import { SubHeader } from '@/shared';
 import mockedMovies from '@/core/mock-data/mocked-movies.json';
 
 export default {
-  name: 'SearchMovie',
+  name: 'movieDetails',
   components: { MovieCard, SubHeader, MovieList },
   data: () => ({
     movies: mockedMovies.movies,

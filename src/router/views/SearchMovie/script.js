@@ -48,10 +48,10 @@ export default {
         case 'date':
           movies.sort((a, b) => {
             new Date(a.release_date) > new Date(b.release_date);
-            if (new Date(a.release_date) < new Date(b.release_date)) {
+            if (new Date(a.release_date) > new Date(b.release_date)) {
               return -1;
             }
-            if (new Date(a.release_date) > new Date(b.release_date)) {
+            if (new Date(a.release_date) < new Date(b.release_date)) {
               return 1;
             }
             return 0;
@@ -59,10 +59,10 @@ export default {
           break;
         case 'rating':
           movies.sort((a, b) => {
-            if (a.vote_average < b.vote_average) {
+            if (a.vote_average > b.vote_average) {
               return -1;
             }
-            if (a.vote_average > b.vote_average) {
+            if (a.vote_average < b.vote_average) {
               return 1;
             }
             return 0;
@@ -77,7 +77,7 @@ export default {
   computed: {
     movies: function() {
       let movies = this.searchMovie(mockedMovies.movies);
-      movies = this.sortMovies(movies);
+      movies = this.sortMovies(movies.slice());
       return movies;
     },
     moviesLength: function() {
