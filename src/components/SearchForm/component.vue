@@ -1,6 +1,7 @@
 <template>
-  <form class="form" @submit="handleSubmit">
+  <form class="search-form" @submit="handleSubmit">
     <input
+      class="search-form__input"
       type="text"
       name="searchValue"
       placeholder="Search..."
@@ -12,8 +13,9 @@
       text="Search by"
       name="searchBy"
       :checkedValue="searchType"
+      class="search-form__toggle"
     />
-    <input type="submit" value="Search" />
+    <input type="submit" value="Search" class="search-form__submit" />
   </form>
 </template>
 
