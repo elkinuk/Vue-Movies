@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="movies && movies.length" class="movie-list">
-      <MovieItem v-for="movie in movies" :movie="movie" v-bind:key="movie.title + movie.id" />
+      <MovieItem v-for="movie in movies" :movie="movie" :key="movie.title + movie.id" />
     </div>
     <div v-else class="movie-list">
       <span class="movie-list__message"> No movies that match your query </span>

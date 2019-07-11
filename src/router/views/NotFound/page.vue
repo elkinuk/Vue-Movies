@@ -1,6 +1,10 @@
 <template>
   <div>
-    <FluidLetters> 404 </FluidLetters>    
+    <FluidLetters>
+      <template v-slot:content>
+        404
+      </template>
+    </FluidLetters>    
   </div>
 </template>
 

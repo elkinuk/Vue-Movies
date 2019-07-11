@@ -17,7 +17,9 @@
       </div>
       <p class="movie-card__overview"> {{movie.overview}} </p>
       <LinkButton to="/" cssClass="movie-card__link-back--cy">
-        Back
+        <template v-slot:content>
+          Back
+        </template>
       </LinkButton>
     </div>
   </div>

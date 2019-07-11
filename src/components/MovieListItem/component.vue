@@ -9,7 +9,9 @@
       <span class="movie-item__genres"> {{movie.genres.join(', ')}} </span>
       <p class="movie-item__overview"> {{movie.overview}} </p>
       <LinkButton :to="`/film/${movie.id}`">
-        See more
+        <template v-slot:content>
+          See more
+        </template>
       </LinkButton>
     </div>
   </div>
