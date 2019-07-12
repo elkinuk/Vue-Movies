@@ -1,7 +1,8 @@
 <template>
-  <button class="button is-primary" @click="onClick">
-    <slot></slot>
-  </button>
+  <div class="subheader">
+    <slot name="left"></slot>
+    <slot name="right"></slot>
+  </div>
 </template>
 
 <script src="./script.js"></script>
