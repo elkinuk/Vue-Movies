@@ -1,28 +1,30 @@
 <template>
   <div class="toggle">
-    <span class="toggle__label"> {{text}} </span>
+    <span class="toggle__label"> {{ text }} </span>
     <div class="toggle__body">
       <input
-        v-model="checkedValue"
+        v-model="currrentValue"
         :id="'toggle-' + labels[0]"
         class="toggle__item--left"
         :name="name"
         type="radio"
         :value="labels[0]"
+        @change="toggleData"
       />
       <label :for="'toggle-' + labels[0]" class="btn">
-        {{labels[0]}}
+        {{ labels[0] }}
       </label>
       <input
-        v-model="checkedValue"
+        v-model="currrentValue"
         :id="'toggle-' + labels[1]"
         class="toggle__item--right"
         :name="name"
         :value="labels[1]"
         type="radio"
+        @change="toggleData"
       />
       <label :for="'toggle-' + labels[1]" class="btn">
-        {{labels[1]}}
+        {{ labels[1] }}
       </label>
     </div>
   </div>

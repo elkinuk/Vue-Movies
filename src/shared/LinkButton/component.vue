@@ -1,7 +1,7 @@
 <template>
   <router-link :to="this.to">
     <span class="link">
-      <slot></slot>
+      <slot name="content"></slot>
     </span>
   </router-link>
 </template>

@@ -7,6 +7,6 @@ export default [
     props: {
       to: '/test',
     },
-    template: "<LinkButton :to='to'>Link Button</LinkButton>",
+    template: "<LinkButton :to='to'><template v-slot:content>Link Button</template</LinkButton>",
   }),
 ];
